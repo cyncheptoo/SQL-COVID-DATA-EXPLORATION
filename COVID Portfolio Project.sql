@@ -50,7 +50,7 @@ order by TotalDeathCount desc;
 --LET'S BREAK THINGS DOWN BY CONTINENNT
 
 
---Showing Countries with the Highest Death Count Per Country.
+--Showing Continent with the Highest Death Count Per Country.
 Select continent,MAX(total_deaths) as TotalDeathCount
 From PortfolioProject..CovidDeaths
 --where location like '%states%'
